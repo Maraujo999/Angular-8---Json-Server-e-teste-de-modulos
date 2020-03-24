@@ -1,0 +1,103 @@
+<div class="container">
+  <div class="ui-g">
+
+    <div class="ui-g-12">
+      <h1>Lançamentos</h1>
+    </div>
+
+    <div class="ui-g-12 ui-fluid">
+      <label>Descrição</label>
+      <input pInputText type="text">
+    </div>
+
+    <div class="ui-g-12">
+      <label style="display: block">Vencimento</label>
+      <input pInputText type="text" style="width: 95px">
+
+      <label>até</label>
+      <input pInputText type="text" style="width: 95px">
+    </div>
+
+    <div class="ui-g-12">
+      <button pButton type="submit" label="Pesquisar"></button>
+    </div>
+
+  </div>
+<!-- <li *ngFor="let l of lancamentos">
+{{l.pessoa}}
+
+</li> -->
+<!-- <div class="ui-g">
+    <div class="ui-g-12">
+    <p-table [value]="lancamentos" [paginator]="true" [rows]="5"
+    [responsive]="true">
+        <ng-template pTemplate="header">
+
+            <tr>
+                <th>Pessoa</th>
+                <th>Descricao</th>
+                <th class="col-data-header">Vencimento </th>
+                <th class="col-data-header">Pagamento</th>
+                <th class="col-valor-header">Valor </th>
+                <th class="col-valor-header"> </th>
+
+            </tr>
+        </ng-template>
+        <ng-template pTemplate="body" let-lancamento>
+            <tr>
+                <td>{{lancamento.pessoa}}</td>
+                <td>{{lancamento.descricao}}</td>
+                <td class="col-data-content">{{lancamento.dataVencimento}} </td>
+                <td class="col-data-content" >{{lancamento.dataPagamento}}</td>
+                <td class="col-valor-content" [ngStyle]="{ color: lancamento.tipo === 'DESPESA' ? 'red' : 'blue'}">{{lancamento.valor}} </td>
+                <td class="col-acoes">
+                    <a pButton icon="pi pi-pencil" pTooltip="Editar" tooltipPosition="top"></a>
+                    <button pButton icon="pi pi-trash" pTooltip="Excluir" tooltipPosition="top"></button>
+                </td>
+
+            </tr>
+        </ng-template>
+    </p-table>
+    <div class="ui-g-12">
+      <a pButton label="Novo Lançamento"></a>
+    </div>
+
+  </div>
+    </div>
+</div> -->
+
+
+
+
+
+<!-- <form  >
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Email address</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Selecionar status</label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option #pega>Inativo</option>
+
+      <option>Ativo</option>
+
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect2">Opção 2</label>
+    <select multiple class="form-control" id="exampleFormControlSelect2">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Comentários</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+</form>
+
+<div *ngIf="pega.value != 2 "> CONTEUDO SENDO EXIBIDO</div> -->
